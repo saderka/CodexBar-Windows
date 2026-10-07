@@ -1,0 +1,24 @@
+**/bin/
+**/obj/
+dist/
+.vs/
+.vscode/
+*.user
+*.suo
+*.pdb
+*.zip
+*.zip.sha256
+*.account
+auth.json
+.credentials.json
+settings.json
+recovery.bin
+login-*/
+*.log
+tools/dotnet/
+tools/nuget/
+Local State
+Cookies
+Cookies-journal
+Cookies-wal
+Cookies-shm
