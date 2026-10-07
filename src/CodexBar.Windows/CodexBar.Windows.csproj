@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AssemblyName>CodexBar</AssemblyName>
+    <ApplicationIcon>assets/CodexBar.ico</ApplicationIcon>
+    <Version>0.4.1</Version>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../CodexBar.Core/CodexBar.Core.csproj" /></ItemGroup>
+</Project>
